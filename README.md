@@ -57,3 +57,21 @@ However, integration should be conditional on receiving structured feedback from
 If feedback from these groups is broadly positive, the prototype branch should be merged into main and the project should move into the **Build Phase**.
 ## Connection to Chapter 7
 This idea currently represents the **Creative Phase** of the innovation framework. A specific problem has been identified (player fatigue mismanagement), a solution concept has been proposed, and the data sources needed have been outlined. However, the idea has not yet been tested, validated with stakeholders, or built into a functioning system. The next step would be moving into the **Prototyping Phase** by developing a simplified version of the fatigue score to test its usefulness with coaches.
+---
+
+## Reflection on Innovation and Version Control
+
+**How branches support low-risk experimentation:**
+GitHub branches allow an analytics team to test new ideas — like changing a metric definition or adding a data source — without altering the stable, approved version of a project. If the experiment fails or receives negative feedback, the branch is simply discarded and the main project is unaffected. This mirrors how innovative organizations create "safe spaces" for experimentation described in Chapter 7: failure is contained and learning is preserved.
+
+**How GitHub helps analytics ideas gain traction with decision makers:**
+Version control creates a transparent, documented record of how an idea evolved. Decision makers — coaches, GMs, or executives — can see exactly what changed, why it changed, and what was evaluated before adoption. This audit trail builds credibility and trust. Rather than presenting a finished tool and asking for approval, the team can show a history of thoughtful iteration, which addresses a key barrier to adoption identified in Chapter 7: stakeholder skepticism.
+
+**Alignment with the Chapter 7 innovation framework:**
+Each GitHub workflow element maps directly onto an innovation phase:
+- **README drafting (main branch)** → *Creative Phase:* articulating the problem and idea
+- **Prototype branch** → *Prototyping Phase:* low-risk testing of enhancements
+- **Evaluation section** → *Engagement Phase:* defining what stakeholder feedback is needed
+- **Merge decision** → *Build Phase:* committing to implementation based on evidence
+
+This workflow demonstrates that version control is not just a software development tool — it is an innovation management framework that helps analytics ideas move from concept to organizational impact with discipline and transparency.
