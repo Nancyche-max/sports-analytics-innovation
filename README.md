@@ -39,6 +39,21 @@ No implementation or coding is required at this stage — this is a conceptual f
 - The tool is designed to be visual and non-technical — no data science background required to interpret it.
 
 ---
+---
 
+## Prototype Evaluation
+**Branch evaluated:** `prototype`
+
+**Should the prototype be integrated into the main project?**
+Yes — with conditions. The shift to publicly available data and the three-tier classification system are both meaningful improvements that increase the tool's practical viability. The core analytics idea is strengthened, not compromised, by these changes. The prototype is a logical evolution of the original concept and aligns well with organizational adoption goals.
+
+However, integration should be conditional on receiving structured feedback from at least two key stakeholder groups before merging becomes final.
+
+**What feedback from decision makers would influence this decision?**
+- **From the Head Coach or Coaching Staff:** Does the Low/Moderate/High Risk classification feel intuitive? Are there game situations where a more nuanced output would be preferred? Coaches need to validate that the categories map onto how they actually make rotation decisions.
+- **From the Team Medical/Training Staff:** Do the thresholds used to define each risk tier align with clinical understanding of fatigue and injury risk? Medical staff buy-in is essential for the tool to be trusted and used consistently.
+- **From the Front Office/Analytics Director:** Is the reliance on only public data a limitation for long-term use, or is it acceptable for a first version? This shapes whether the tool is adopted as-is or slated for a second iteration with internal data.
+
+If feedback from these groups is broadly positive, the prototype branch should be merged into main and the project should move into the **Build Phase**.
 ## Connection to Chapter 7
 This idea currently represents the **Creative Phase** of the innovation framework. A specific problem has been identified (player fatigue mismanagement), a solution concept has been proposed, and the data sources needed have been outlined. However, the idea has not yet been tested, validated with stakeholders, or built into a functioning system. The next step would be moving into the **Prototyping Phase** by developing a simplified version of the fatigue score to test its usefulness with coaches.
