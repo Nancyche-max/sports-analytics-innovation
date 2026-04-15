@@ -39,6 +39,19 @@ No implementation or coding is required at this stage — this is a conceptual f
 - The tool is designed to be visual and non-technical — no data science background required to interpret it.
 
 ---
+---
 
+## Prototype Enhancement
+**Branch:** `prototype`
+
+**What is being changed:**
+The original concept relies partly on wearable/biometric data, which is not always accessible or consistently collected. This enhancement refines the fatigue score to use **only publicly available data** — specifically game logs, schedule data, and travel distances — making the tool viable for any NBA team regardless of their internal data infrastructure.
+
+Additionally, the presentation layer is being changed: instead of a numerical fatigue score, the prototype will use a **simplified three-tier classification system** (Low Risk / Moderate Risk / High Risk) based on defined thresholds. This makes the output immediately actionable for coaches who may not have time to interpret raw numbers during a game-day preparation meeting.
+
+**Why this change could improve decision-making:**
+1. **Accessibility:** Removing the dependency on proprietary wearable data means the tool can be prototyped and validated immediately using existing public datasets, lowering the barrier to adoption.
+2. **Clarity:** Research on decision-making under time pressure (relevant to game-day coaching) shows that categorical recommendations outperform numerical scores when fast decisions are needed. A coach seeing "HIGH RISK" acts more quickly and confidently than one interpreting a score of 78.4 out of 100.
+3. **Buy-in:** Simpler outputs are easier to explain to skeptical stakeholders, which is critical during the engagement phase of innovation.
 ## Connection to Chapter 7
 This idea currently represents the **Creative Phase** of the innovation framework. A specific problem has been identified (player fatigue mismanagement), a solution concept has been proposed, and the data sources needed have been outlined. However, the idea has not yet been tested, validated with stakeholders, or built into a functioning system. The next step would be moving into the **Prototyping Phase** by developing a simplified version of the fatigue score to test its usefulness with coaches.
