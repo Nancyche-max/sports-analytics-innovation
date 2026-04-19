@@ -24,6 +24,11 @@ This project is currently in the creative phase because it focuses on defining t
 
 **The prototype branch was merged into the main branch because the Player Impact Score improves clarity and supports faster decision-making.
 ## Prototype Evaluation 
-Prototype enhancement is integrated into the main project as it simplifies the analysis and makes results actionable. Feedback from the decision makers will be important in order to determine the impact of a player to team success. 
+Prototype enhancement is integrated into the main project as it simplifies the analysis and makes results actionable. Feedback from the decision makers will be important in order to determine the impact of a player to team success.
+
+## Reflection
+GitHub helps analytics ideas gain action by making it easy to track changes, improvements, and collaboration in a project. 
+It aligns with chapter 7 as it clearly outlines the process of innovation which starts from generating and idea, to testing it through prototyping, to gathering feedback, and making a decision of whether the implementation should proceed. 
+
 
 ---
