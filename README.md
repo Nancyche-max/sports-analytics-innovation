@@ -1,44 +1,24 @@
-# sports-analytics-innovation
-communication and project management tool.
-# Sports Analytics Innovation Project
-**Junior Analytics Associate | Professional Sports Organization**
-
----
 
 ## Project Overview
-This project proposes a **Player Fatigue & Load Management Dashboard** for an NBA front office. The tool would track cumulative physical stress on players across a season using game minutes, back-to-back game frequency, travel distance, and historical injury data. It would generate a real-time "fatigue score" for each player, helping the coaching staff make smarter rotation and rest decisions.
+The project proposes an analytics dashboard for English Premier League which identifies player performance metrics on how they have impact in team success. Complex dataset is simplified into insights that can be used in decision making by managers and coaches. 
 
 ---
 
 ## Decision-Making Problem
-NBA teams frequently struggle to balance player performance with injury prevention. Overplaying key players — especially during grueling travel stretches — increases injury risk and can derail playoff chances. This tool addresses the question: *When should a player be rested or have their minutes reduced to minimize injury risk without sacrificing competitive performance?*
+Team decision makers always have access to huge amounts of data on players but becomes difficult to select the main metric that contributes to winning a game. The project tries to solve this problem through identifying indicators that gives a high value player to improve player selection and strategy. 
 
 ---
 
 ## Proposed Analytics Approach
-**Data Sources:**
-- Player game logs (minutes played, points, efficiency metrics)
-- Schedule data (back-to-back games, travel miles between cities)
-- Historical injury reports (from public NBA injury databases)
-- Wearable/biometric data (if available from team trainers)
-
-**Analysis Methods:**
-- Cumulative load index calculated as a weighted sum of minutes, travel, and rest days
-- Regression analysis correlating fatigue scores with injury occurrence rates
-- Rolling 7-day and 30-day trend tracking per player
-- Threshold alerts when a player's fatigue score exceeds a defined risk level
-
-No implementation or coding is required at this stage — this is a conceptual framework.
+Publicly available data on players and teams will be used in the analysis which combines factors such as passes, assists, tackles, win records, and goals scored by a player. The analysis will try to answer questions based on identification of relationships that exists among metrics that contribute to team success. The dataset will be cleaned and new rows added to help in making the analysis easy and well understood by decision makers. 
 
 ---
 
 ## Use by Decision Makers
-- **Head Coach:** Views a pre-game dashboard showing each player's fatigue score with a color-coded risk indicator (green/yellow/red). Uses this to decide starting lineups and minute caps.
-- **Team Trainer/Medical Staff:** Monitors rolling trends and receives automated alerts when thresholds are crossed.
-- **Front Office/GM:** Reviews season-level load data to evaluate player durability during contract negotiations and trade evaluations.
-- The tool is designed to be visual and non-technical — no data science background required to interpret it.
+Decision makers in a team comprise of the coaches, managers, and analysts. They will make use of the dashboard in the identification of high value and high-performance players in order to make informed decisions on matters touching tactics, transfers, and even line up selection. The dashboard will present data in visuals which is easy to comprehend as compared to data tables. 
 
----
+## Connection to Chapter 7
+This project is currently in the creative phase because it focuses on defining the idea and identifying how analytics can support decision-making, and not yet tested.  
 ---
 
 ## Prototype Enhancement
