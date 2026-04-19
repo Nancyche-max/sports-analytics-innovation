@@ -21,6 +21,8 @@ Decision makers in a team comprise of the coaches, managers, and analysts. They 
 This project is currently in the creative phase because it focuses on defining the idea and identifying how analytics can support decision-making, and not yet tested.  
 
 ---
+
+**The prototype branch was merged into the main branch because the Player Impact Score improves clarity and supports faster decision-making.
 ## Prototype Evaluation 
 Prototype enhancement is integrated into the main project as it simplifies the analysis and makes results actionable. Feedback from the decision makers will be important in order to determine the impact of a player to team success. 
 
